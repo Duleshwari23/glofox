@@ -33,15 +33,20 @@ cd glofox
 ---
 
 ## 📖 Usage
-Home Page
-Navigate to / to access the homepage with the Create Class form.
-API Endpoints
-Method	Endpoint	Description
-GET  "/"	Serves the homepage with a form to create a class.
-POST	"/classes"	API to create a class.
-GET  "/create-class-response"	Displays the details of the created class.
-POST	"/bookings"	API to create a booking for a class.
-GET  "/create-booking-response"	Displays the booking confirmation details.
+
+### Home Page
+
+- Navigate to `/` to access the homepage with the **Create Class** form.
+
+### API Endpoints
+
+| **Method** | **Endpoint**                | **Description**                                                                                      |
+|------------|-----------------------------|------------------------------------------------------------------------------------------------------|
+| `GET`      | `/`                         | Serves the homepage with a form to create a class.                                                  |
+| `POST`     | `/classes`                  | Creates a new class with details such as name, start date, end date, and capacity.                  |
+| `GET`      | `/create-class-response`    | Displays the details of the created class and provides a form for creating bookings.                |
+| `POST`     | `/bookings`                 | Creates a new booking for a specific class and date.                                                |
+| `GET`      | `/create-booking-response`  | Displays booking confirmation details, including the class ID, user name, and booking date.         |
 
 ---
 
