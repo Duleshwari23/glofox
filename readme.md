@@ -14,7 +14,7 @@ Glofox is a simple class booking system built with Go (Golang) and the Gin web f
 
 ## 📋 Prerequisites
 
-Before you begin, ensure you have the following installed:
+Before start, the following must be installed:
 
 - [Go](https://golang.org/dl/) (version 1.16 or later)
 - A terminal or command-line interface
