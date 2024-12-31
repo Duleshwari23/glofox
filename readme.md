@@ -46,12 +46,13 @@ GET  "/create-booking-response"	Displays the booking confirmation details.
 ---
 
 ## 💻 Project Structure
-csharp
-Copy code
+
+```
 glofox/
-├── main.go        #### Application entry point
-├── go.mod         #### Go module file
-└── go.sum         #### Go dependencies checksum file
+├── main.go        # Application entry point
+├── go.mod         # Go module file
+└── go.sum         # Go dependencies checksum file
+```
 
 ---
 
